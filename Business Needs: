@@ -1,0 +1,40 @@
+South Heart Insurance
+
+Business Needs
+    • Internal
+        ○ Operates in Georgia, Tennessee, Virginia, North and South Carolina, and Florida.
+        ○ In addition to selling their services across these states, they also need to have end user support.
+        ○ They want to be able to use the data gained through this to have actionable reports to help them grow and focus.
+        ○ Users should have as much help as possible to lower the amount of training required.
+    • Customers
+        ○ They want a new client facing website that incorporates the ability for their customers to find doctors in their network, and set up appointments.
+        ○ They also want clients dealing with certain conditions to be able to interact, creating online support groups overseen by a professional.
+    • Partners
+        ○ Be able to log in and see requested appointments
+            § Accept or deny appointment requests.
+You should make use of the folowing:
+    • User Setup
+    • Data Model
+    • Layouts
+    • Homepage
+    • Security
+    • Sharing Rules
+    • Queues
+    • Validation Rules (Using RegEx)
+    • Duplicate Rules
+    • Workflow Rules/Process Builder
+    • Flows
+    • Sales/Support Processes/Paths
+    • Web-to-lead
+    • Web-to-case
+    • Auto-Response Rules
+    • Escalation Rules
+    • Knowledge/Questions/Ideas
+    • Communities
+    • Chatter
+    • Activities
+    • Email Services
+    • Mobile
+    • Reports & Dashboards
+    • Visualforce
+    • Apex
