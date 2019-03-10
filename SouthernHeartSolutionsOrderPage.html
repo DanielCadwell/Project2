@@ -1,0 +1,137 @@
+<apex:page showHeader="false">
+    <apex:stylesheet value="{!$Resource.SouthernHeartSolutionsCSSStyleSheet}" />
+    <div id = "topheader">
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="3">
+                <apex:image value="{!$Resource.SouthernHeartSolutionsSmallLogo}" />
+                <apex:image value="{!$Resource.siteAsset_200462f107304300b0311a8fdddca6bbsmall}" />
+            </apex:pageBlockSection>
+        </apex:pageBlock>       
+    </div>
+    
+    <div id = "middle">
+        <apex:pageBlock >
+            <table id = "ordertable" border = "1">
+                <td>
+                    <table border = "1">
+                        <tr>
+                            <th></th>
+                            <th class = "healthth">Choose Your Plan</th>
+                            <th class = "healthth">Plan Details</th>
+                            <th class = "healthth">Estimated Premium</th>
+                            <th class = "healthth"></th>
+                        </tr>
+                        <tr>
+                            <th class = "healthth"><apex:image value="{!$Resource.pdf}" /><span>&nbsp;Southern Health Bronze Plan</span></th>
+                            <td class = "healthtd"><input type="checkbox" name="plan choice" /></td>
+                            <td class = "healthtd">
+                                <table>
+                                    <tr>
+                                        <td>Deductible</td>
+                                        <td>$3,000</td>
+                                    </tr>
+                                	<tr>
+                                        <td>Coinsurance</td>
+                                        <td>60/40</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pay Method: </td>
+                                        <td>Monthly</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class = "healthtd">
+                                $500<br />
+                                $41.67
+                            </td>
+                            <td class = "healthtd"><apex:image value="{!$Resource.addtocartdetails}" /></td>
+                        </tr>
+                        <tr>
+                            <th class = "healthth"><apex:image value="{!$Resource.pdf}" /><span>&nbsp;Southern Health Silver Plan</span></th>
+                            <td class = "healthtd"><input type="checkbox" name="plan choice" /></td>
+                            <td class = "healthtd">
+                                <table>
+                                    <tr>
+                                        <td>Deductible</td>
+                                        <td>$1,500</td>
+                                    </tr>
+                                	<tr>
+                                        <td>Coinsurance</td>
+                                        <td>70/30</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pay Method: </td>
+                                        <td>Monthly</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class = "healthtd">
+                                $750<br />
+                                $62.50
+                            </td>
+                            <td class = "healthtd"><apex:image value="{!$Resource.addtocartdetails}" /></td>
+                        </tr>
+                        <tr>
+                            <th class = "healthth"><apex:image value="{!$Resource.pdf}" /><span>&nbsp;Southern Health Gold Plan</span></th>
+                            <td class = "healthtd"><input type="checkbox" name="plan choice" /></td>
+                            <td class = "healthtd">
+                                <table>
+                                    <tr>
+                                        <td>Deductible</td>
+                                        <td>$500</td>
+                                    </tr>
+                                	<tr>
+                                        <td>Coinsurance</td>
+                                        <td>80/20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pay Method: </td>
+                                        <td>Monthly</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class = "healthtd">
+                                $1,000<br />
+                                $83.33
+                            </td>
+                            <td class = "healthtd"><apex:image value="{!$Resource.addtocartdetails}" /></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                	<table>
+                	</table>
+                </td>
+                <td id = "shoppingcart" border = "1">
+                    Shopping Cart&nbsp;&nbsp;<apex:image value="{!$Resource.ShoppingCartsmall}" /><br /><br />
+                    Silver Plan  	                               $750.00<br />
+                    Quantity		 	                               100<br />
+                                  	                             ---------<br />
+                    Sub-Total	     						     $7,500.00<br /><br />
+                    VA State Tax			                       $322.50<br />
+                                                                 ---------<br />
+                    Total Cost					                 $7,822.50
+                </td>
+            </table>
+        </apex:pageBlock>
+    </div>
+    
+    <div id = "bottomfooter">
+        <apex:pageBlock >
+            <style>
+                .bPageBlock
+                {
+                    background-color: white !important;
+                }
+            </style>
+            <apex:pageBlockSection columns="3">
+                <apex:outputText >Employment&nbsp;&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;&nbsp;Terms &amp; Service&nbsp;&nbsp;&nbsp;&nbsp;FAQ</apex:outputText>
+                <apex:outputText >&nbsp;</apex:outputText>
+                <apex:outputText >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &copy;2019 All rights reserved.</apex:outputText>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </div>
+</apex:page>
